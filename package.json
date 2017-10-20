@@ -1,0 +1,19 @@
+{
+  "name": "bem-themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bemdesign/bem-themes.git"
+  },
+  "author": "Mikhail Koloskov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bemdesign/bem-themes/issues"
+  },
+  "homepage": "https://github.com/bemdesign/bem-themes#readme"
+}

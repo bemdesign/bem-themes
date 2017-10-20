@@ -1,0 +1,136 @@
+/* Базовые цвета от которых выстраивается вся политра */
+$color-base: #000000; /* hsl(0, 0%, 0%) */
+$color-essential: #FFFFFF; /* hsl(0, 0%, 100%) */
+$color-project: #FFCC00; /* hsl(48, 100%, 50%) */
+$color-phantom: #F6F5F3; /* hsl(40, 14%, 96%) */
+$color-radical: #EE0000; /* hsl(0, 100%, 47%) */
+$color-source: #007700; /* hsl(120, 100%, 23%) */
+$color-path: #0070F0; /* hsl(220, 100%, 47%) */
+
+
+/* Цвета блоков */
+$color-brand: $color-project; /* Бренд */
+$color-action: color($color-project l(+15%)); /* Акценты */
+$color-selection: color($color-project h(-1) l(+31%)); /* Выделения */
+$color-hover: color($color-project h(+2) l(+40%)); /* Наведения */
+$color-inverse: #1a1a1a; /* Инверсия */
+$color-border: color($color-base a(5%)); /* Границы */
+$color-stripe: color($color-base a(2%)); /* Границы */
+$color-border-control: color($color-base a(12%)); /* Границы */
+$color-ghost: color($color-phantom s(+6%) l(-2%)); /* Затенения */
+$color-default: $color-essential; /* Дефолт */
+$color-default-ios: $color-essential; /* Дефолт iOS */
+$color-default-android: color($color-essential l(-2%)); /* Дефолт Android */
+$color-tone: color($color-base a(70%)); /* Паранджа  */
+$color-success: color($color-source h(+38%) l(+7)); /* Успех */
+$color-alert: color($color-radical l(+13%)); /* Ошибка */
+$color-normal: color($color-phantom h(+155%) s(-1%) l(-8)); /* Стандартный */
+
+
+/* Цвета компонентов */
+$color-disable: color($color-base a(8%)); /* Дизайбл */
+
+
+/* Цвета текста */
+$color-typo-primary: $color-base; /* Основной */
+$color-typo-promo: color($color-base a(80%)); /* Промо */
+$color-typo-secondary: color($color-base a(60%)); /* Второстепенный */
+$color-typo-ghost: color($color-base a(30%)); /* Третестепенный */
+$color-typo-inverse: $color-essential; /* Инверсия */
+$color-typo-disable: color($color-base a(30%)); /* Неактивный */
+$color-typo-income: color($color-source s(-5) l(+10)); /* Приход */
+$color-typo-letter:  color($color-radical l(+3%)); /* Брендированный */
+$color-typo-success: color($color-source h(+38%) l(+7)); /* Успех */
+$color-typo-alert: color($color-radical l(+13%)); /* Ошибка */
+
+
+/* Цвета ссылок */
+$color-link: $color-path; /* Основная */
+$color-link-external: $color-source; /* Дополнительная */
+$color-link-minor: color($color-path h(+22) s(-80%) l(+13%)); /* Второстепенная ссылка */
+$color-link-hover: color($color-radical l(-7%)); /* Ховер */
+
+
+:root {
+  /* Цвета блоков */
+  --color-brand: $color-brand;
+  --color-action: $color-action;
+  --color-selection: $color-selection;
+  --color-hover: $color-hover;
+  --color-inverse: $color-inverse;
+  --color-border: $color-border;
+  --color-stripe: $color-stripe;
+  --color-border-control: $color-border-control;
+  --color-ghost: $color-ghost;
+  --color-default: $color-default;
+  --color-default-ios: $color-default-ios;
+  --color-default-android: $color-default-android;
+  --color-tone: $color-tone;
+  --color-success: $color-success;
+  --color-alert: $color-alert;
+  --color-normal: $color-normal;
+
+  /* Цвета контролов */
+  --color-disable: $color-disable;
+
+  /* Цвета текста */
+  --color-typo-primary: $color-typo-primary;
+  --color-typo-promo: $color-typo-promo;
+  --color-typo-secondary: $color-typo-secondary;
+  --color-typo-ghost: $color-typo-ghost;
+  --color-typo-inverse: $color-typo-inverse;
+  --color-typo-disable: $color-typo-disable;
+  --color-typo-income: $color-typo-income;
+  --color-typo-letter: $color-typo-letter;
+  --color-typo-success: $color-typo-success;
+  --color-typo-alert: $color-typo-alert;
+
+  /* Цвета ссылок */
+  --color-link: $color-link;
+  --color-link-external: $color-link-external;
+  --color-link-minor: $color-link-minor;
+  --color-link-hover: $color-link-hover;
+}
+
+
+/* Цвета для bem-components (в процессе)
+$color-default:                 color($color-essential);
+$color-inverse:                 $color-base;
+$color-hover:                   color($color-project l(+33%));
+$color-press:                   $color-ghost;
+
+$color-action:                  color($color-project l(+15%));
+$color-action-hover:            color($color-project l(+20%));
+$color-action-focus:            $color-project;
+$color-action-press:            $color-project;
+
+$color-check:                   color($color-project l(+33%));
+$color-check-press:             color($color-project l(+25%));
+
+$color-disable:                 color($color-base a(8%));
+$color-disable-check:           color($color-base a(8%));
+$color-border-disable:          color($color-base l(+60%));
+
+$color-border:                  color($color-base a(20%));
+$color-border-hover:            color($color-base a(30%));
+$color-border-press:            color($color-base a(35%));
+$color-border-focus:            color($color-base a(35%));
+
+$color-border-check:            color($color-project a(50%) l(-20%));
+$color-border-check-press:      color($color-base a(35%));
+$color-border-check-hover:      color($color-project a(60%) l(-25%));
+$color-border-focus:            $color-project;
+
+$color-typo-primary:            $color-base;
+$color-typo-inverse:            $color-essential;
+$color-typo-placeholder:        color($color-base l(+60%));
+
+$color-link:                    $color-path;
+$color-link-hover:              $color-radical;
+$color-link-ghost:              $color-ghost;
+$color-link-ghost-hover:        color($color-ghost l(-10));
+$color-link-visited:            color($color-path s(10%));
+
+$color-typo-disable:            color($color-base l(+60%));
+$color-typo-inverse-disable:    color($color-base a(40%));
+*/
