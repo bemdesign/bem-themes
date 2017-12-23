@@ -36,6 +36,7 @@ $color-typo-primary: $color-base; /* Основной */
 $color-typo-promo: color($color-base a(80%)); /* Промо */
 $color-typo-secondary: color($color-base a(60%)); /* Второстепенный */
 $color-typo-ghost: color($color-base a(30%)); /* Третестепенный */
+$color-typo-ghost-inverse: color($color-essential a(40%)); /* Третестепенный инверсный */
 $color-typo-inverse: $color-essential; /* Инверсия */
 $color-typo-disable: color($color-base a(30%)); /* Неактивный */
 $color-typo-income: color($color-source s(-5) l(+10)); /* Приход */
