@@ -13,7 +13,7 @@ $color-brand: $color-project; /* Бренд */
 $color-action: color($color-project l(+15%)); /* Действие */
 $color-selection: color($color-project h(-1) l(+31%)); /* Выделения */
 $color-hover: color($color-project h(+2) l(+40%)); /* Наведения */
-$color-inverse: color($color-base l(+10%)); /* Инверсия */
+$color-inverse: color($color-base); /* Инверсия */
 $color-border: color($color-base a(5%)); /* Границы */
 $color-border-inverse: color($color-essential a(16%)); /* Инверсия границ */
 $color-stripe: color($color-base a(2%)); /*  Зебра */
