@@ -16,8 +16,8 @@ $color-hover: color($color-project h(+2) l(+40%)); /* Наведения */
 $color-inverse: color($color-base l(+10%)); /* Инверсия */
 $color-border: color($color-base a(5%)); /* Границы */
 $color-border-inverse: color($color-essential a(16%)); /* Инверсия границ */
-$color-stripe: color($color-base a(2%)); /* Границы */
-$color-border-control: color($color-base a(12%)); /* Границы */
+$color-stripe: color($color-base a(2%)); /*  Зебра */
+$color-border-control: color($color-base a(12%)); /* Границы контролла */
 $color-ghost: color($color-phantom s(+6%) l(-2%)); /* Затенение */
 $color-ghost-inverse: color($color-essential a(20%)); /* Инверсия затенения */
 $color-default: $color-essential; /* Дефолт */
