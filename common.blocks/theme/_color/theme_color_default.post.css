@@ -10,21 +10,26 @@ $color-path: #0070F0; /* hsl(220, 100%, 47%) */
 
 /* Цвета блоков */
 $color-brand: $color-project; /* Бренд */
-$color-action: color($color-project l(+15%)); /* Акценты */
+$color-action: color($color-project l(+15%)); /* Действие */
 $color-selection: color($color-project h(-1) l(+31%)); /* Выделения */
 $color-hover: color($color-project h(+2) l(+40%)); /* Наведения */
-$color-inverse: #1a1a1a; /* Инверсия */
+$color-inverse: color($color-base l(+10%)); /* Инверсия */
 $color-border: color($color-base a(5%)); /* Границы */
+$color-border-inverse: color($color-essential a(16%)); /* Инверсия границ */
 $color-stripe: color($color-base a(2%)); /* Границы */
 $color-border-control: color($color-base a(12%)); /* Границы */
-$color-ghost: color($color-phantom s(+6%) l(-2%)); /* Затенения */
+$color-ghost: color($color-phantom s(+6%) l(-2%)); /* Затенение */
+$color-ghost-inverse: color($color-essential a(20%)); /* Инверсия затенения */
 $color-default: $color-essential; /* Дефолт */
 $color-default-ios: $color-essential; /* Дефолт iOS */
 $color-default-android: color($color-essential l(-2%)); /* Дефолт Android */
-$color-tone: color($color-base a(70%)); /* Паранджа  */
+$color-tone: color($color-base a(70%)); /* Паранджа */
+$color-soft: color($color-essential a(97%)); /* Молоко */
 $color-success: color($color-source h(+38%) l(+7)); /* Успех */
 $color-alert: color($color-radical l(+13%)); /* Ошибка */
+$color-warn: color($color-project h(-1%) l(+21)); /* Предупреждениея */
 $color-normal: color($color-phantom h(+155%) s(-1%) l(-8)); /* Стандартный */
+$color-system: color($color-base h(+208) s(+15) l(+54)); /* Системный */
 
 
 /* Цвета компонентов */
@@ -35,8 +40,8 @@ $color-disable: color($color-base a(8%)); /* Дизайбл */
 $color-typo-primary: $color-base; /* Основной */
 $color-typo-promo: color($color-base a(80%)); /* Промо */
 $color-typo-secondary: color($color-base a(60%)); /* Второстепенный */
-$color-typo-ghost: color($color-base a(30%)); /* Третестепенный */
-$color-typo-ghost-inverse: color($color-essential a(40%)); /* Третестепенный инверсный */
+$color-typo-ghost: color($color-base a(30%)); /* Дополнителный */
+$color-typo-ghost-inverse: color($color-essential a(40%)); /* Инверсия дополнительного */
 $color-typo-inverse: $color-essential; /* Инверсия */
 $color-typo-disable: color($color-base a(30%)); /* Неактивный */
 $color-typo-income: color($color-source s(-5) l(+10)); /* Приход */
@@ -60,16 +65,21 @@ $color-link-hover: color($color-radical l(-7%)); /* Ховер */
   --color-hover: $color-hover;
   --color-inverse: $color-inverse;
   --color-border: $color-border;
+  --color-border-inverse: $color-border-inverse;
   --color-stripe: $color-stripe;
   --color-border-control: $color-border-control;
   --color-ghost: $color-ghost;
+  --color-ghost-inverse: $color-ghost-inverse;
   --color-default: $color-default;
   --color-default-ios: $color-default-ios;
   --color-default-android: $color-default-android;
   --color-tone: $color-tone;
+  --color-soft: $color-soft;
   --color-success: $color-success;
   --color-alert: $color-alert;
+  --color-warn: $color-warn;
   --color-normal: $color-normal;
+  --color-system: $color-system;
 
   /* Цвета контролов */
   --color-disable: $color-disable;
@@ -79,6 +89,7 @@ $color-link-hover: color($color-radical l(-7%)); /* Ховер */
   --color-typo-promo: $color-typo-promo;
   --color-typo-secondary: $color-typo-secondary;
   --color-typo-ghost: $color-typo-ghost;
+  --color-typo-ghost-inverse: $color-typo-ghost-inverse;
   --color-typo-inverse: $color-typo-inverse;
   --color-typo-disable: $color-typo-disable;
   --color-typo-income: $color-typo-income;
@@ -92,46 +103,3 @@ $color-link-hover: color($color-radical l(-7%)); /* Ховер */
   --color-link-minor: $color-link-minor;
   --color-link-hover: $color-link-hover;
 }
-
-
-/* Цвета для bem-components (в процессе)
-$color-default:                 color($color-essential);
-$color-inverse:                 $color-base;
-$color-hover:                   color($color-project l(+33%));
-$color-press:                   $color-ghost;
-
-$color-action:                  color($color-project l(+15%));
-$color-action-hover:            color($color-project l(+20%));
-$color-action-focus:            $color-project;
-$color-action-press:            $color-project;
-
-$color-check:                   color($color-project l(+33%));
-$color-check-press:             color($color-project l(+25%));
-
-$color-disable:                 color($color-base a(8%));
-$color-disable-check:           color($color-base a(8%));
-$color-border-disable:          color($color-base l(+60%));
-
-$color-border:                  color($color-base a(20%));
-$color-border-hover:            color($color-base a(30%));
-$color-border-press:            color($color-base a(35%));
-$color-border-focus:            color($color-base a(35%));
-
-$color-border-check:            color($color-project a(50%) l(-20%));
-$color-border-check-press:      color($color-base a(35%));
-$color-border-check-hover:      color($color-project a(60%) l(-25%));
-$color-border-focus:            $color-project;
-
-$color-typo-primary:            $color-base;
-$color-typo-inverse:            $color-essential;
-$color-typo-placeholder:        color($color-base l(+60%));
-
-$color-link:                    $color-path;
-$color-link-hover:              $color-radical;
-$color-link-ghost:              $color-ghost;
-$color-link-ghost-hover:        color($color-ghost l(-10));
-$color-link-visited:            color($color-path s(10%));
-
-$color-typo-disable:            color($color-base l(+60%));
-$color-typo-inverse-disable:    color($color-base a(40%));
-*/
