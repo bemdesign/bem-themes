@@ -23,7 +23,7 @@ $color-ghost-inverse: color($color-essential a(20%)); /* Инверсия зат
 $color-default: $color-essential; /* Дефолт */
 $color-default-ios: $color-essential; /* Дефолт iOS */
 $color-default-android: color($color-essential l(-2%)); /* Дефолт Android */
-$color-tone: color($color-base a(70%)); /* Паранджа */
+$color-tone: color($color-base a(90%)); /* Паранджа */
 $color-soft: color($color-essential a(97%)); /* Молоко */
 $color-success: color($color-source h(+38%) l(+7)); /* Успех */
 $color-alert: color($color-radical l(+13%)); /* Ошибка */
