@@ -285,6 +285,9 @@
   }
 
   &_indent-a {
+    &_auto {
+      margin: auto;
+    }
     &_xxxs {
       margin: var(--space-xxxs);
     }
@@ -323,6 +326,10 @@
     }
   }
   &_indent-v {
+    &_auto {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
     &_xxxs {
       margin-top: var(--space-xxxs);
       margin-bottom: var(--space-xxxs);
@@ -373,6 +380,10 @@
     }
   }
   &_indent-h {
+    &_auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
     &_xxxs {
       margin-left: var(--space-xxxs);
       margin-right: var(--space-xxxs);
