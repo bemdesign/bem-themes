@@ -10,11 +10,11 @@ $col-gap-full: $space-xxxxl;
 
 :root {
 	/* Размеры отступа у контента */
-	--gap)-: var(space-xxxxl);
+	--gap: var(--space-xxxxl);
 
 	/* Размеры отступов в колонках */
-	--col-gap-third: var(space-m);
-	--col-gap-half: var(space-xl);
-	--col-gap-2third: var(space-xxxl);
-	--col-gap-full: var(space-xxxxl);
+	--col-gap-third: var(--space-m);
+	--col-gap-half: var(--space-xl);
+	--col-gap-2third: var(--space-xxxl);
+	--col-gap-full: var(--space-xxxxl);
 }
