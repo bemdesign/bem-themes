@@ -1,13 +1,13 @@
-$screen-s: 320px;
-$screen-m: 720px;
-$screen-l: 1024px;
-$screen-xl: 1280px;
-$screen-xxl: 1440px;
+$screen-xs: 320px;
+$screen-s: 720px;
+$screen-m: 1024px;
+$screen-l: 1280px;
+$screen-xl: 1440px;
 
 :root {
-	--screen-s: 320px;
-	--screen-m: 720px;
-	--screen-l: 1024px;
-	--screen-xl: 1280px;
-	--screen-xxl: 1440px;
+	--screen-xs: 320px;
+	--screen-s: 720px;
+	--screen-m: 1024px;
+	--screen-l: 1280px;
+	--screen-xl: 1440px;
 }

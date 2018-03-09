@@ -4,7 +4,7 @@ $gap: $space-xxxxxxl;
 /* Размеры отступа в колонках */
 $col-gap-third: $space-xxl;
 $col-gap-half: $space-xxxxl;
-$col-gap-2third: $space-xxxxxl;
+$col-gap-two-thirds: $space-xxxxxl;
 $col-gap-full: $space-xxxxxxl;
 
 
@@ -15,6 +15,6 @@ $col-gap-full: $space-xxxxxxl;
 	/* Размеры отступов в колонках */
 	--col-gap-third: var(--space-xxl);
 	--col-gap-half: var(--space-xxxxl);
-	--col-gap-2third: var(--space-xxxxxl);
+	--col-gap-two-thirds: var(--space-xxxxxl);
 	--col-gap-full: var(--space-xxxxxxl);
 }
