@@ -2,7 +2,7 @@
 $color-base: #000000; /* hsl(0, 0%, 0%) */
 $color-essential: #FFFFFF; /* hsl(0, 0%, 100%) */
 $color-project: #FFCC00; /* hsl(48, 100%, 50%) */
-$color-phantom: #F6F5F3; /* hsl(40, 14%, 96%) */
+$color-phantom: #F5F5F5; /* hsl(40, 14%, 96%) */
 $color-radical: #EE0000; /* hsl(0, 100%, 47%) */
 $color-source: #007700; /* hsl(120, 100%, 23%) */
 $color-path: #0070F0; /* hsl(220, 100%, 47%) */
@@ -18,7 +18,7 @@ $color-border: color($color-base a(5%)); /* Границы */
 $color-border-inverse: color($color-essential a(16%)); /* Инверсия границ */
 $color-stripe: color($color-base a(2%)); /*  Зебра */
 $color-border-control: color($color-base a(12%)); /* Границы контролла */
-$color-ghost: color($color-phantom s(+6%) l(-2%)); /* Затенение */
+$color-ghost: color($color-phantom l(-1%)); /* Затенение */
 $color-ghost-inverse: color($color-essential a(20%)); /* Инверсия затенения */
 $color-default: $color-essential; /* Дефолт */
 $color-default-ios: $color-essential; /* Дефолт iOS */
