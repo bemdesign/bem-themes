@@ -59,7 +59,7 @@
 }
 
 @font-face {
-  font-family: "MuseoSansBold";
+  font-family: "MuseoSans";
   src: url("museo/fonts/MuseoSansBoldItalic/MuseoSansBoldItalic.eot");
   src: url("museo/fonts/MuseoSansBoldItalic/MuseoSansBoldItalic.eot?#iefix")format("embedded-opentype"),
   url("museo/fonts/MuseoSansBoldItalic/MuseoSansBoldItalic.woff") format("woff"),
@@ -69,7 +69,7 @@
 }
 
 @font-face {
-  font-family: "MuseoSansMedium";
+  font-family: "MuseoSans";
   src: url("museo/fonts/MuseoSansMediumItalic/MuseoSansMediumItalic.eot");
   src: url("museo/fonts/MuseoSansMediumItalic/MuseoSansMediumItalic.eot?#iefix")format("embedded-opentype"),
   url("museo/fonts/MuseoSansMediumItalic/MuseoSansMediumItalic.woff") format("woff"),
@@ -79,7 +79,7 @@
 }
 
 @font-face {
-  font-family: "MuseoSansLightItalic";
+  font-family: "MuseoSans";
   src: url("museo/fonts/MuseoSansLightItalic/MuseoSansLightItalic.eot");
   src: url("museo/fonts/MuseoSansLightItalic/MuseoSansLightItalic.eot?#iefix")format("embedded-opentype"),
   url("museo/fonts/MuseoSansLightItalic/MuseoSansLightItalic.woff") format("woff"),
@@ -89,7 +89,7 @@
 }
 
 @font-face {
-  font-family: "MuseoSansBlackItalic";
+  font-family: "MuseoSans";
   src: url("museo/fonts/MuseoSansBlackItalic/MuseoSansBlackItalic.eot");
   src: url("museo/fonts/MuseoSansBlackItalic/MuseoSansBlackItalic.eot?#iefix")format("embedded-opentype"),
   url("museo/fonts/MuseoSansBlackItalic/MuseoSansBlackItalic.woff") format("woff"),
