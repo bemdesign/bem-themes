@@ -27,7 +27,7 @@ $color-tone: color($color-base a(90%)); /* Паранджа */
 $color-soft: color($color-essential a(97%)); /* Молоко */
 $color-success: color($color-source h(+38%) l(+7)); /* Успех */
 $color-alert: color($color-radical l(+13%)); /* Ошибка */
-$color-warn: color($color-project h(-1%) l(+21)); /* Предупреждениея */
+$color-warn: color($color-project h(-12%)); /* Предупреждениея */
 $color-normal: color($color-phantom h(+155%) s(-1%) l(-8)); /* Стандартный */
 $color-system: color($color-base h(+208) s(+15) l(+54)); /* Системный */
 
