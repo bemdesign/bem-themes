@@ -44,7 +44,7 @@ $color-link-minor: color($color-path h(+22) s(-80%) l(+13%)); /* Второст�
 $color-link-hover: color($color-radical l(-7%)); /* Ховер */
 
 
-:root {
+.theme_color_default {
   /* Цвета блоков */
   --color-brand: $color-brand;
   --color-action: $color-action;
