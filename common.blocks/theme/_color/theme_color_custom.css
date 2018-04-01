@@ -44,40 +44,40 @@ $color-link-minor: color($color-path h(+22) s(-80%) l(+13%)); /* Второст�
 $color-link-hover: color($color-radical l(-7%)); /* Ховер */
 
 .theme_color_custom {
-  /* Цвета блоков */
-  --color-brand: $color-brand;
-  --color-action: $color-action;
-  --color-selection: $color-selection;
-  --color-hover: $color-hover;
-  --color-inverse: $color-inverse; /* DEPRECATED */
-  --color-border: $color-border;
-  --color-stripe: $color-stripe;
-  --color-ghost: $color-ghost;
-  --color-default: $color-default;
-  --color-tone: $color-tone;
-  --color-soft: $color-soft;
-  --color-success: $color-success;
-  --color-alert: $color-alert;
-  --color-warning: $color-warning;
-  --color-normal: $color-normal;
-  --color-system: $color-system;
+	/* Цвета блоков */
+	--color-brand: $color-brand;
+	--color-action: $color-action;
+	--color-selection: $color-selection;
+	--color-hover: $color-hover;
+	--color-inverse: $color-inverse; /* DEPRECATED */
+	--color-border: $color-border;
+	--color-stripe: $color-stripe;
+	--color-ghost: $color-ghost;
+	--color-default: $color-default;
+	--color-tone: $color-tone;
+	--color-soft: $color-soft;
+	--color-success: $color-success;
+	--color-alert: $color-alert;
+	--color-warning: $color-warning;
+	--color-normal: $color-normal;
+	--color-system: $color-system;
 
-  /* Цвета текста */
-  --color-typo-primary: $color-typo-primary;
-  --color-typo-promo: $color-typo-promo;
-  --color-typo-secondary: $color-typo-secondary;
-  --color-typo-ghost: $color-typo-ghost;
-  --color-typo-inverse: $color-typo-inverse; /* DEPRECATED */
-  --color-typo-disable: $color-typo-disable;
-  --color-typo-success: $color-typo-success;
-  --color-typo-warning: $color-typo-warning;
-  --color-typo-alert: $color-typo-alert;
+	/* Цвета текста */
+	--color-typo-primary: $color-typo-primary;
+	--color-typo-promo: $color-typo-promo;
+	--color-typo-secondary: $color-typo-secondary;
+	--color-typo-ghost: $color-typo-ghost;
+	--color-typo-inverse: $color-typo-inverse; /* DEPRECATED */
+	--color-typo-disable: $color-typo-disable;
+	--color-typo-success: $color-typo-success;
+	--color-typo-warning: $color-typo-warning;
+	--color-typo-alert: $color-typo-alert;
 
-  /* Цвета ссылок */
-  --color-link: $color-link;
-  --color-link-external: $color-link-external;
-  --color-link-minor: $color-link-minor;
-  --color-link-hover: $color-link-hover;
+	/* Цвета ссылок */
+	--color-link: $color-link;
+	--color-link-external: $color-link-external;
+	--color-link-minor: $color-link-minor;
+	--color-link-hover: $color-link-hover;
 }
 
 
@@ -124,28 +124,28 @@ $color-typo-inverse-disable:    color($color-base a(40%));
 	--color-press: $color-press; /* Цвет фона блоков по нажатию */
 
 
-  /* Action / Focus */
-  --color-action-hover: $color-action-hover; /* Фон активных блоков по ховеру */
-  --color-action-focus: $color-action-focus; /* Фон активных блоков при фокусе */
-  --color-action-press: $color-action-press; /* Фон активных блоков по нажатию */
+  	/* Action / Focus */
+	--color-action-hover: $color-action-hover; /* Фон активных блоков по ховеру */
+	--color-action-focus: $color-action-focus; /* Фон активных блоков при фокусе */
+	--color-action-press: $color-action-press; /* Фон активных блоков по нажатию */
 
-  --color-check: $color-check; /* Фон чекнутых блоков */
-  --color-check-press: $color-check-press; /* Фон чекнутых блоков по нажатию */
+	--color-check: $color-check; /* Фон чекнутых блоков */
+	--color-check-press: $color-check-press; /* Фон чекнутых блоков по нажатию */
 
-  /* Disable */
-  --color-disable: $color-disable; /* Фон неактивного блока */
-  --color-disable-check: $color-disable-check; /* Фон чекнутого неактивного блока */
-  --color-border-disable: $color-border-disable; /* Фон бордеров неактивного блока */
+	/* Disable */
+	--color-disable: $color-disable; /* Фон неактивного блока */
+	--color-disable-check: $color-disable-check; /* Фон чекнутого неактивного блока */
+	--color-border-disable: $color-border-disable; /* Фон бордеров неактивного блока */
 
-  /* Border */
+  	/* Border */
 	--color-border-hover: $color-border-hover; /* Цвет бордеров по ховеру */
 	--color-border-press: $color-border-press; /* Цвет бордеров по нажатию */
 	--color-border-focus: $color-border-focus; /* Цвет бордеров по фокусу */
 
-  --color-border-check: $color-border-check; /* Цвет цвет бордера чекнутого блока */
-  --color-border-check-press: $color-border-check-press; /* Цвет цвет бордера чекнутого блока при фокусе по нажатию */
-  --color-border-check-hover: $color-border-check-hover; /* Цвет цвет бордера чекнутого блока по ховеру */
-  --color-border-focus: $color-border-focus; /* Цвет цвет бордера при фокусе */
+	--color-border-check: $color-border-check; /* Цвет цвет бордера чекнутого блока */
+	--color-border-check-press: $color-border-check-press; /* Цвет цвет бордера чекнутого блока при фокусе по нажатию */
+	--color-border-check-hover: $color-border-check-hover; /* Цвет цвет бордера чекнутого блока по ховеру */
+	--color-border-focus: $color-border-focus; /* Цвет цвет бордера при фокусе */
 
 	--color-typo-placeholder: $color-typo-placeholder; /* Цвет основного плейсхолдера */
 	--color-typo-inverse-disable: $color-typo-inverse-disable; /* Цвет инверсии основного текста неактивного блока */
