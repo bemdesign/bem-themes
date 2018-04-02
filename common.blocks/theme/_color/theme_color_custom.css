@@ -1,7 +1,7 @@
 /* Базовые цвета от которых выстраивается вся политра */
-$color-base: #002348; /* hsl(0, 0%, 0%) */
+$color-base: #000000; /* hsl(0, 0%, 0%) */
 $color-essential: #fff; /* hsl(0, 0%, 100%) */
-$color-project: #0056b3; /* hsl(48, 100%, 50%) */
+$color-project: #0056b3; /* hsl(211, 100%, 35%) */
 $color-phantom: #000; /* hsl(40, 14%, 96%) */
 $color-radical: #e00; /* hsl(0, 100%, 47%) */
 $color-path: #0070f0; /* hsl(220, 100%, 47%) */
@@ -95,11 +95,11 @@ $color-check-press:             color($color-project l(+25%));
 
 $color-disable:                 color($color-phantom a(8%));
 $color-disable-check:           color($color-phantom a(8%));
-$color-border-disable:          color($color-phantom l(+60%));
 
 $color-border-hover:            color($color-phantom a(30%));
 $color-border-press:            color($color-phantom a(35%));
 $color-border-focus:            color($color-phantom a(35%));
+$color-border-disable:          color($color-phantom l(+60%));
 
 $color-border-check:            color($color-phantom a(50%) l(-20%));
 $color-border-check-press:      color($color-phantom a(35%));
@@ -116,13 +116,11 @@ $color-typo-inverse-disable:    color($color-base a(40%));
 
 
 .theme_color_custom {
-	/* Смысловая политра цветов, наследуемая от основных цветов (изменяется при детальной настройки цветовой схемы) */
 
 	/* Default */
 	--color-inverse: $color-inverse; /* Иверсия фонового цвета блоков */
 	--color-hover: $color-hover; /* Цвет фона блоков по ховеру */
 	--color-press: $color-press; /* Цвет фона блоков по нажатию */
-
 
   	/* Action / Focus */
 	--color-action-hover: $color-action-hover; /* Фон активных блоков по ховеру */
@@ -135,12 +133,12 @@ $color-typo-inverse-disable:    color($color-base a(40%));
 	/* Disable */
 	--color-disable: $color-disable; /* Фон неактивного блока */
 	--color-disable-check: $color-disable-check; /* Фон чекнутого неактивного блока */
-	--color-border-disable: $color-border-disable; /* Фон бордеров неактивного блока */
 
   	/* Border */
 	--color-border-hover: $color-border-hover; /* Цвет бордеров по ховеру */
 	--color-border-press: $color-border-press; /* Цвет бордеров по нажатию */
 	--color-border-focus: $color-border-focus; /* Цвет бордеров по фокусу */
+	--color-border-disable: $color-border-disable; /* Фон бордеров неактивного блока */
 
 	--color-border-check: $color-border-check; /* Цвет цвет бордера чекнутого блока */
 	--color-border-check-press: $color-border-check-press; /* Цвет цвет бордера чекнутого блока при фокусе по нажатию */
