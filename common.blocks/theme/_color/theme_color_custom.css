@@ -17,7 +17,7 @@ $color-system: #778a9b; /* Системный */
 $color-brand: $color-project; /* Бренд */
 $color-action: color($color-project l(+15%)); /* Действие */
 $color-selection: color($color-project h(-1) l(+31%)); /* Выделения */
-$color-hover: color($color-project h(+2) l(+40%)); /* Наведения */
+$color-hover: color($color-base a(15%)); /* Наведения */
 $color-inverse: color($color-base); /* DEPRECATED */
 $color-border: color($color-phantom a(5%)); /* Границы */
 $color-stripe: color($color-phantom a(4%)); /*  Зебра */
@@ -83,14 +83,13 @@ $color-link-hover: color($color-radical l(-7%)); /* Ховер */
 
 
 $color-inverse:                 $color-base;
-$color-hover:                   color($color-project l(+33%));
 $color-press:                   $color-ghost;
 
 $color-action-hover:            color($color-project l(+20%));
 $color-action-focus:            $color-project;
 $color-action-press:            $color-project;
 
-$color-check:                   color($color-project l(+33%));
+$color-check:                   color($color-phantom a(12%));
 $color-check-press:             color($color-project l(+25%));
 
 $color-disable:                 color($color-phantom a(8%));
@@ -101,9 +100,9 @@ $color-border-press:            color($color-phantom a(35%));
 $color-border-focus:            color($color-phantom a(35%));
 $color-border-disable:          color($color-phantom l(+60%));
 
-$color-border-check:            color($color-phantom a(50%) l(-20%));
+$color-border-check:            color($color-project l(+15%));
 $color-border-check-press:      color($color-phantom a(35%));
-$color-border-check-hover:      color($color-phantom a(60%) l(-25%));
+$color-border-check-hover:      color($color-project l(+10%));
 $color-border-focus:            $color-action;
 
 $color-typo-placeholder:        color($color-phantom l(+60%));
