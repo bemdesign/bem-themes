@@ -42,7 +42,7 @@ $color-typo-alert: $color-alert; /* Цвет текста ошибки */
 $color-link: $color-path; /* Цвет основной ссылки */
 $color-link-external: $color-path; /* Цвет дополнительной ссылки */
 $color-link-minor: color($color-path h(+22) s(-80%) l(+13%)); /* Цвет второстепенной ссылки */
-$color-link-hover: color($color-radical l(-7%)); /* Цвет ховера ссылки */
+$color-link-hover: color($color-path l(-7%)); /* Цвет ховера ссылки */
 
 
 
@@ -134,7 +134,7 @@ $color-control-typo-inverse-disable:    color($color-phantom l(40%)); /* Цве�
 
 /* Links */
 $color-control-link:                    $color-path; /* Цвет ссылки */
-$color-control-link-hover:              $color-radical; /* Цвет ссылоки по ховеру */
+$color-control-link-hover:              $color-path; /* Цвет ссылоки по ховеру */
 $color-control-link-external:           $color-path; /* Цвет внешней ссылоки */
 $color-control-link-ghost:              $color-phantom; /* Цвет второстепенной ссылоки */
 $color-control-link-ghost-hover:        color($color-phantom l(-10)); /* Цвет второстепенной ссылоки по ховеру */
