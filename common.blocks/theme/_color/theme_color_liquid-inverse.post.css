@@ -28,20 +28,20 @@ $color-bg-normal: $color-base-normal; /* Цвет фона нейтральны�
 $color-bg-system: $color-base-system; /* Цвет фона системнный */
 
 /* Цвета текста */
-$color-typo-primary: $color-bg-base; /* Цвет основного текста */
-$color-typo-promo: color($color-bg-base a(80%)); /* Цвет промо текста */
-$color-typo-secondary: color($color-bg-base a(60%)); /* Цвет второстепенного текста */
-$color-typo-ghost: color($color-bg-base a(30%)); /* Цвет дополнительного текста */
-$color-typo-disable: color($color-bg-base a(30%)); /* Цвет неактивного текста */
-$color-typo-success: $color-bg-success; /* Цвет текста успеха */
-$color-typo-warning: $color-bg-warning; /* Цвет текста предупреждения */
-$color-typo-alert: $color-bg-alert; /* Цвет текста ошибки */
+$color-typo-primary: $color-base-base; /* Цвет основного текста */
+$color-typo-promo: color($color-base-base a(80%)); /* Цвет промо текста */
+$color-typo-secondary: color($color-base-base a(60%)); /* Цвет второстепенного текста */
+$color-typo-ghost: color($color-base-base a(30%)); /* Цвет дополнительного текста */
+$color-typo-disable: color($color-base-base a(30%)); /* Цвет неактивного текста */
+$color-typo-success: $color-base-success; /* Цвет текста успеха */
+$color-typo-warning: $color-base-warning; /* Цвет текста предупреждения */
+$color-typo-alert: $color-base-alert; /* Цвет текста ошибки */
 
 /* Цвета ссылок */
-$color-link: $color-bg-path; /* Цвет основной ссылки */
-$color-link-external: $color-bg-path; /* Цвет дополнительной ссылки */
-$color-link-minor: color($color-bg-path h(+22) s(-80%) l(+13%)); /* Цвет второстепенной ссылки */
-$color-link-hover: color($color-bg-path l(-7%)); /* Цвет ховера ссылки */
+$color-link: $color-base-path; /* Цвет основной ссылки */
+$color-link-external: $color-base-path; /* Цвет дополнительной ссылки */
+$color-link-minor: color($color-base-path h(+22) s(-80%) l(+13%)); /* Цвет второстепенной ссылки */
+$color-link-hover: color($color-base-path l(-7%)); /* Цвет ховера ссылки */
 
 
 .theme_color_liquid-inverse {
