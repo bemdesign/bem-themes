@@ -6,7 +6,7 @@ $color-base-phantom: #000; /* hsl(40, 14%, 96%) Тонирующий цвет, �
 $color-base-path: #0070f0; /* hsl(220, 100%, 47%) Ссылочный цвет, от которого выстраиваются все их состояния */
 $color-base-success: #00985f; /* Цвет успеха */
 $color-base-alert: #f33; /* Цвет ошибки */
-$color-base-alert: #f90; /* Цвет предупреждения */
+$color-base-warning: #f90; /* Цвет предупреждения */
 $color-base-normal: #dde3e5; /* Цвет нейтральный */
 $color-base-system: #778a9b; /* Цвет системнный */
 
@@ -22,7 +22,7 @@ $color-bg-default: $color-base-essential; /* Цвет дефолта */
 $color-bg-tone: color($color-base-phantom a(90%)); /* Цвет паранджи */
 $color-bg-soft: color($color-base-essential a(97%)); /* Цвет молока */
 $color-bg-success: $color-base-success; /* Цвет фона успеха */
-$color-bg-alert: $color-base-warning; /* Цвет фона ошибки */
+$color-bg-alert: $color-base-alert; /* Цвет фона ошибки */
 $color-bg-warning: $color-base-warning; /* Цвет фона предупреждения */
 $color-bg-normal: $color-base-normal; /* Цвет фона нейтральный */
 $color-bg-system: $color-base-system; /* Цвет фона системнный */
