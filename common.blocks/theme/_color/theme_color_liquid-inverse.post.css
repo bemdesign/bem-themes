@@ -22,7 +22,7 @@ $color-bg-default: $color-base-essential; /* Цвет дефолта */
 $color-bg-tone: color($color-base-phantom a(90%)); /* Цвет паранджи */
 $color-bg-soft: color($color-base-essential a(97%)); /* Цвет молока */
 $color-bg-success: $color-base-success; /* Цвет фона успеха */
-$color-bg-alert: $color-base-warning; /* Цвет фона ошибки */
+$color-bg-alert: $color-base-alert; /* Цвет фона ошибки */
 $color-bg-warning: $color-base-warning; /* Цвет фона предупреждения */
 $color-bg-normal: $color-base-normal; /* Цвет фона нейтральный */
 $color-bg-system: $color-base-system; /* Цвет фона системнный */
