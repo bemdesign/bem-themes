@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bemdesign/bem-themes/issues"
   },
-  "homepage": "https://github.com/bemdesign/bem-themes#readme"
+  "homepage": "https://github.com/bemdesign/bem-themes#readme",
+  "devDependencies": {
+    "postcss-mixins": "^6.2.0"
+  }
 }
