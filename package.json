@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bemdesign/bem-themes#readme",
   "devDependencies": {
+    "postcss-each": "^0.10.0",
     "postcss-mixins": "^6.2.0"
   }
 }
